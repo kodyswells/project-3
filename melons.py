@@ -1,5 +1,7 @@
 import csv
 
+melon_dict = {}
+
 class Melon:
     def __init__(
         self,
@@ -23,10 +25,16 @@ class Melon:
         )
 
     def price_str(self) -> str:
-        return f"<Melon: {self.price:.2f}"
+        return f"${self.price:.2f}"
+    
+    @classmethod
+    def get_by_id(cls, melon_id):
+        return melon_dict.get(melon_id)
 
+    @classmethod
+    def get_all(cls):
+        return list(melon_dict.values())
 
-melon_dict = {}
 
 with open("melons.csv") as csvfile:
     rows = csv.DictReader(csvfile)
@@ -44,10 +52,12 @@ with open("melons.csv") as csvfile:
 
         melon_dict[melon_id] = melon
 
+# Test output
+print(melon_dict)
+
 def get_by_id(melon_id):
-    return melon_dict[melon_id]
+
+    return melon_dict.get(melon_id)
 
 def get_all():
-    return list(melon_dict.values())
-
-print(melon_dict)
+   return list(melon_dict.values())

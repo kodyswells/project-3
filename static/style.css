@@ -1,0 +1,179 @@
+.melon-image {
+    height: 300px;
+    width: 300px;
+ }
+ 
+ #melon-list {
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+ .error-page {
+   padding: 100px 20px;
+}
+
+.error-code {
+   font-size: 10rem;
+   font-weight: bold;
+   color: #dc3545;
+}
+
+.error-message {
+   font-size: 1.5rem;
+   margin: 20px 0;
+}
+
+.btn-primary {
+   font-size: 1rem;
+   padding: 10px 20px;
+   color: #fff;
+   background-color: #007bff;
+   border: none;
+   border-radius: 5px;
+   text-decoration: none;
+}
+
+.btn-primary:hover {
+   background-color: #0056b3;
+}
+
+/* Navbar Styles */
+.navbar-brand {
+   font-size: 1.5rem;
+   font-weight: bold;
+   color: #fff;
+}
+
+.nav-link {
+   color: #fff !important;
+   font-size: 1rem;
+   padding: 10px 15px;
+}
+
+.nav-link:hover {
+   background-color: #0056b3;
+   color: #fff !important;
+}
+
+/* Melons List Styles */
+.card {
+   margin: 20px;
+   padding: 20px;
+   border: 1px solid #ddd;
+   border-radius: 10px;
+   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card img {
+   max-width: 100%;
+   height: auto;
+   border-radius: 5px;
+}
+
+.card h5 {
+   margin-top: 10px;
+   font-size: 1.25rem;
+   color: #333;
+}
+
+.card a {
+   text-decoration: none;
+   color: #007bff;
+}
+
+.card a:hover {
+   text-decoration: underline;
+}
+
+/* Cart Styles */
+.cart-item {
+   display: flex;
+   align-items: center;
+   padding: 10px 0;
+   border-bottom: 1px solid #ddd;
+}
+
+.cart-item:last-child {
+   border-bottom: none;
+}
+
+.cart-item img {
+   width: 50px;
+   height: auto;
+   margin-right: 20px;
+}
+
+.cart-item-details {
+   flex-grow: 1;
+}
+
+.cart-item-quantity,
+.cart-item-total {
+   font-size: 1rem;
+   font-weight: bold;
+}
+
+/* Login Form Styles */
+.login-form {
+   max-width: 400px;
+   margin: 50px auto;
+   padding: 20px;
+   border: 1px solid #ddd;
+   border-radius: 10px;
+   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.login-form h2 {
+   margin-bottom: 20px;
+   font-size: 1.5rem;
+   color: #333;
+}
+
+.login-form .form-group {
+   margin-bottom: 15px;
+}
+
+.login-form .form-control {
+   width: 100%;
+   padding: 10px;
+   border-radius: 5px;
+   border: 1px solid #ddd;
+}
+
+.login-form .btn {
+   width: 100%;
+   padding: 10px;
+   font-size: 1rem;
+   border-radius: 5px;
+}
+
+/* 404 Page Styles */
+.error-page {
+   padding: 100px 20px;
+   text-align: center;
+}
+
+.error-code {
+   font-size: 10rem;
+   font-weight: bold;
+   color: #dc3545;
+}
+
+.error-message {
+   font-size: 1.5rem;
+   margin: 20px 0;
+}
+
+.error-page a {
+   font-size: 1rem;
+   padding: 10px 20px;
+   color: #fff;
+   background-color: #007bff;
+   border: none;
+   border-radius: 5px;
+   text-decoration: none;
+}
+
+.error-page a:hover {
+   background-color: #0056b3;
+}
